@@ -1,101 +1,182 @@
 {
-      statusCode: 200,
-      message: 'success',
-      result: {
-        data: [
+  statusCode: 200,
+  message: 'success',
+  result: {
+    data: [
+      {
+        _id: '63e217b8c80ec6654dd48572',
+        name: 'Dashboard 1',
+        pageId: 'dashboard_1',
+        localName: '',
+        description: '',
+        authorization: [
           {
-            _id: '63e217b8c80ec6654dd48572',
-            name: 'Dashboard 1',
-            pageId: 'dashboard_1',
-            localName: '',
-            description: '',
-            authorization: [{ res: '', scope: '', roles: 'test' }],
-            localDescription: '',
-            icon: 'table_view',
-            parentId: '',
-            policies: [
-              {
-                name: 'Policy',
-                type: 'role',
-                logic: 'POSITIVE',
-                decisionStrategy: 'UNANIMOUS',
-                config: {
-                  roles: [
-                    { id: 't', required: false },
-                    { id: 'e', required: false },
-                    { id: 's', required: false },
-                    { id: 't', required: false },
-                  ],
-                },
-              },
-            ],
-            resources: [
-              { name: '', ownerManagedAccess: true, resourceScope: [''] },
-            ],
-            permissions: [
-              {
-                name: 'PermissionTo',
-                type: 'scope',
-                logic: 'POSITIVE',
-                decisionStrategy: 'UNANIMOUS',
-                config: {
-                  resources: [''],
-                  scopes: [''],
-                  applyPolicies: ['Policy'],
-                },
-              },
-            ],
-            created_at: '2023-02-07T09:19:52.086Z',
-            updated_at: '2023-02-07T09:20:07.487Z',
-            __v: 0,
-          },
-          {
-            _id: '63ec8737c80ec6654dd498f3',
-            name: 'Dashboard 2',
-            pageId: 'dashboard_2',
-            localName: '',
-            description: '',
-            authorization: [{ res: '', scope: '', roles: 'test' }],
-            localDescription: '',
-            icon: 'bar_chart',
-            parentId: '',
-            policies: [
-              {
-                name: 'Policy',
-                type: 'role',
-                logic: 'POSITIVE',
-                decisionStrategy: 'UNANIMOUS',
-                config: {
-                  roles: [
-                    { id: 't', required: false },
-                    { id: 'e', required: false },
-                    { id: 's', required: false },
-                    { id: 't', required: false },
-                  ],
-                },
-              },
-            ],
-            resources: [
-              { name: '', ownerManagedAccess: true, resourceScope: [''] },
-            ],
-            permissions: [
-              {
-                name: 'PermissionTo',
-                type: 'scope',
-                logic: 'POSITIVE',
-                decisionStrategy: 'UNANIMOUS',
-                config: {
-                  resources: [''],
-                  scopes: [''],
-                  applyPolicies: ['Policy'],
-                },
-              },
-            ],
-            created_at: '2023-02-15T07:18:15.327Z',
-            updated_at: '2023-02-15T07:18:38.765Z',
-            __v: 0,
-          },
+            res: '',
+            scope: '',
+            roles: 'test'
+          }
         ],
-        total: 2,
+        localDescription: '',
+        icon: 'table_view',
+        parentId: '',
+        policies: [
+          {
+            name: 'Policy',
+            type: 'role',
+            logic: 'POSITIVE',
+            decisionStrategy: 'UNANIMOUS',
+            config: {
+              roles: [
+                {
+                  id: 't',
+                  required: false
+                },
+                {
+                  id: 'e',
+                  required: false
+                },
+                {
+                  id: 's',
+                  required: false
+                },
+                {
+                  id: 't',
+                  required: false
+                },
+                
+              ],
+              
+            },
+            
+          },
+          
+        ],
+        resources: [
+          {
+            name: '',
+            ownerManagedAccess: true,
+            resourceScope: [
+              ''
+            ]
+          },
+          
+        ],
+        permissions: [
+          {
+            name: 'PermissionTo',
+            type: 'scope',
+            logic: 'POSITIVE',
+            decisionStrategy: 'UNANIMOUS',
+            config: {
+              resources: [
+                ''
+              ],
+              scopes: [
+                ''
+              ],
+              applyPolicies: [
+                'Policy'
+              ],
+              
+            },
+            
+          },
+          
+        ],
+        created_at: '2023-02-07T09:19:52.086Z',
+        updated_at: '2023-02-07T09:20:07.487Z',
+        __v: 0,
+        
       },
-    }
+      {
+        _id: '63ec8737c80ec6654dd498f3',
+        name: 'Dashboard 2',
+        pageId: 'dashboard_2',
+        localName: '',
+        description: '',
+        authorization: [
+          {
+            res: '',
+            scope: '',
+            roles: 'test'
+          }
+        ],
+        localDescription: '',
+        icon: 'bar_chart',
+        parentId: '',
+        policies: [
+          {
+            name: 'Policy',
+            type: 'role',
+            logic: 'POSITIVE',
+            decisionStrategy: 'UNANIMOUS',
+            config: {
+              roles: [
+                {
+                  id: 't',
+                  required: false
+                },
+                {
+                  id: 'e',
+                  required: false
+                },
+                {
+                  id: 's',
+                  required: false
+                },
+                {
+                  id: 't',
+                  required: false
+                },
+                
+              ],
+              
+            },
+            
+          },
+          
+        ],
+        resources: [
+          {
+            name: '',
+            ownerManagedAccess: true,
+            resourceScope: [
+              ''
+            ]
+          },
+          
+        ],
+        permissions: [
+          {
+            name: 'PermissionTo',
+            type: 'scope',
+            logic: 'POSITIVE',
+            decisionStrategy: 'UNANIMOUS',
+            config: {
+              resources: [
+                ''
+              ],
+              scopes: [
+                ''
+              ],
+              applyPolicies: [
+                'Policy'
+              ],
+              
+            },
+            
+          },
+          
+        ],
+        created_at: '2023-02-15T07:18:15.327Z',
+        updated_at: '2023-02-15T07:18:38.765Z',
+        __v: 0,
+        
+      },
+      
+    ],
+    total: 2,
+    
+  },
+  
+}
