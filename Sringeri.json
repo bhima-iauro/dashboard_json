@@ -142,7 +142,7 @@
           "itemWidget": {
             "type": "imageTextColumn",
             "itemCount": "6",
-            "childAspectRatio":"1.5"
+            "childAspectRatio":"1.5",
             "basicProperties": {
               "padding": {
                 "left": "",
