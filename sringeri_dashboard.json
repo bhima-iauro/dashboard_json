@@ -1,543 +1,578 @@
-                            {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "column",
-      
-      "basicProperties": {
-        "padding": {
-          "left": "15",
-          "right": "15",
-          "top": "15",
-          "bottom": "15",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      "widgetProperties": {
-        "crossAxisAlignment": "start",
-        "mainAxisAlignment": "center",
-        "mainAxisSize": "",
-         "children":[
-    //Resourse Title row
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "titleRowButton",
-      "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "10",
-        "border": {
-          "color": "", //#ac1291
-          "width": "1",
-        }
-      },
-      "widgetProperties": {
-        "title": "Resources",
-        "titleSize": "",
-        "titleColor": "",
-        "buttonText": "View All", // default is View All, See More
-        "buttonTextSize": "",
-        "hideViewAll": "", //default it is false //to hide button set true
-        "buttonTextColor": "" //#E55039 default is blue,
-      },
+{
+  "_id": "63e20a959f83e075ee8cb6bb",
+  "page_id": "63e20a94f87f49390ae9f4c7",
+  "key": "name",
+  "value": "",
+  "widgetType": "column",
+  "basicProperties": {
+    "padding": {
+      "left": "15",
+      "right": "15",
+      "top": "15",
+      "bottom": "15"
     },
-
-    //Resourse grid view section
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "gridView",
-      "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      "widgetProperties": {
-        "perItemWidth":"150",
-        "horizontalSpacing":"5",
-        "verticalSpacing":"5",
-        "itemWidget": {
-          "type": "imageTextColumn",
-          "itemCount": "6",
-          "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      
-          "itemProperties": {
-            "titleColor": "",
-            "titleSize": "",
-            "hideText": "",
-            "itemData": [
-              {
-                "title": "Videos",
-                "url":
-                    "https://user-images.githubusercontent.com/106060767/222734779-60d26072-b28a-4a79-8943-50dc0b9780c0.png",
-              },
-              {
-                "title": "Songs",
-                "url":
-                    "https://user-images.githubusercontent.com/106060767/222734715-843c6bef-da66-41a6-896d-8477340db6a1.png",
-              },
-              {
-                "title": "Panchangam",
-                "url":
-                    "https://user-images.githubusercontent.com/106060767/222734695-6976ecee-167a-4b75-9c3c-890faf71b4e0.png",
-              },
-              {
-                "title": "Pravachans",
-                "url":
-                    "https://user-images.githubusercontent.com/106060767/222734740-9e8cbb6a-e0ab-441a-984f-9a905a5f3351.png",
-              },
-              {
-                "title": "Stotras",
-                "url":
-                    "https://user-images.githubusercontent.com/106060767/222734695-6976ecee-167a-4b75-9c3c-890faf71b4e0.png",
-              },
-              {
-                "title": "Live",
-                "url":
-                    "https://user-images.githubusercontent.com/106060767/222734682-72dc14b4-73fa-4049-b2a4-07a185bdbf1e.png",
-              }
-            ]
-          },
-        }
-      },
+    "margin": {
+      "left": "",
+      "right": "",
+      "top": "",
+      "bottom": ""
     },
-
-    //My Upcoming Sevas Title row
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "titleRowButton",
-      "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "5",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "10",
-        "border": {
-          "color": "", //#ac1291
-          "width": "1",
-        }
-      },
-      "widgetProperties": {
-        "title": "My Upcoming Sevas",
-        "titleSize": "",
-        "titleColor": "",
-        "buttonText": "View All", // default is View All, See More
-        "buttonTextSize": "",
-        "hideViewAll": "", //default it is false //to hide button set true
-        "buttonTextColor": "" //#E55039 default is blue,
-      },
-    },
-
-    //My Upcoming Sevas slider section
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "customSlider",
-      "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "10",
-          "bottom": "10",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "10",
-        "border": {
-          "color": "", //#ac1291
-          "width": "1",
-        }
-      },
-      "widgetProperties": {
-        "cardHeight": "100",
-        "cardWidth": "250",
-        "autoPlay": "true",
-        "itemCount": "2",
-        "itemProperties": {
-           "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      
-          "color": "", //#ac1291
-          "titleColor": "",
-          "titleSize": "",
-          "subTitleSize": "",
-          "subTitleColor": "",
-          "height": "100",
-          "shadowColor": "",
-          "borderRadius": "10",
-          "itemData": [
-            {
-              "title": "Silder card 1",
-              "subTitle": "This is jsut for demostration",
-              "imgUrl":
-                  "https://user-images.githubusercontent.com/106060767/222727277-10aba637-4f6e-4408-80c3-7e7e31db9d26.png",
-            },
-            {
-              "title": "Silder card 2",
-              "subTitle": "This is jsut for demostration",
-              "imgUrl":
-                  "https://user-images.githubusercontent.com/106060767/223011755-5f3e4962-29a7-43ed-8097-8a709c7ef95b.png",
-            }
-          ]
-        },
-      },
-    },
-
-    //This Month Title row
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "titleRowButton",
-      "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "20",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "10",
-        "border": {
-          "color": "", //#ac1291
-          "width": "1",
-        }
-      },
-      "widgetProperties": {
-        "title": "This Month",
-        "titleSize": "",
-        "titleColor": "",
-        "buttonText": "View All", // default is View All, See More
-        "buttonTextSize": "",
-        "hideViewAll": "", //default it is false //to hide button set true
-        "buttonTextColor": "" //#E55039 default is blue,
-      },
-    },
-
-    //This month listview section
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "listView",
-      "basicProperties": {
-        "padding": {
-          "left": "15",
-          "right": "15",
-          "top": "15",
-          "bottom": "15",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "20",
-          "bottom": "",
-        },
-        "height": "150",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      "widgetProperties": {
-        "itemSpacing": "10",
-        "scrollDirection": "vertical",
-        "itemWidget": {
-          "type": "listTileDateCard",
-           "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      
-          "itemCount": "6",
-          "itemProperties": {
-            "height": "80",
-            "width": "330",
-            "titleColor": "",
-            "titleSize": "",
-            "cardColor": "", //#ac1291
-            "leadingTextSize": "",
-            "leadingTextColor": "",
-            "leadingBoxColor": "",
-            "borderRadius": "8",
-            "leadingBoxBorderRadius": "4",
-            "itemData": [
-              {
-                "title": "Silder card example1",
-                "date": "22",
-                "month": "Jan",
-              },
-              {
-                "title": "Silder card example2",
-                "date": "26",
-                "month": "Jan",
-              },
-              {
-                "title": "Silder card example3",
-                "date": "27",
-                "month": "Jan",
-              },
-              {
-                "title": "Silder card example4",
-                "date": "28",
-                "month": "Jan",
-              },
-              {
-                "title": "Silder card example5",
-                "date": "29",
-                "month": "Jan",
-              },
-              {
-                "title": "Silder card example6",
-                "date": "30",
-                "month": "Jan",
-              }
-            ]
-          },
-        }
-      },
-    },
-
-    //Jagadguru Speaks Title row
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "titleRowButton",
-      "basicProperties": {
-        "padding": {
-          "left": "",
-          "right": "",
-          "top": "20",
-          "bottom": "",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "10",
-        "border": {
-          "color": "", //#ac1291
-          "width": "1",
-        }
-      },
-      "widgetProperties": {
-        "title": "Jagadguru Speaks",
-        "titleSize": "",
-        "titleColor": "",
-        "buttonText": "View All", // default is View All, See More
-        "buttonTextSize": "",
-        "hideViewAll": "", //default it is false //to hide button set true
-        "buttonTextColor": "" //#E55039 default is blue,
-      },
-    },
-
-    //Jagadguru Speaks horizontal listview section
-    {
-      "_id": "63e20a959f83e075ee8cb6bb",
-      "page_id": "63e20a94f87f49390ae9f4c7",
-      "key": "name",
-      "value": "",
-      "widgetType": "listView",
-      "basicProperties": {
-        "padding": {
-          "left": "15",
-          "right": "15",
-          "top": "15",
-          "bottom": "15",
-        },
-        "margin": {
-          "left": "",
-          "right": "",
-          "top": "",
-          "bottom": "",
-        },
-        "height": "100",
-        "width": "",
-        "backgroundColor": "",
-        "borderRadius": "",
-        "border": {
-          "color": "", //#ac1291
-          "width": "",
-        }
-      },
-      "widgetProperties": {
-        "itemSpacing": "10",
-        "scrollDirection": "horizontal",
-        "itemWidget": {
-          "type": "textCard",
-          "itemCount": "2",
-          "itemProperties": {
-            "width": "160",
-            "height": "70",
-            "color": "", //#ac1291
-            "titleColor": "#101010",
-            "titleSize": "16",
-            "borderRadius": "8",
-            "itemData": [
-              {
-                "title": "English",
-              },
-              {
-                "title": "தமிழ்",
-              }
-            ]
-          },
-        }
-      },
+    "height": "",
+    "width": "",
+    "backgroundColor": "FFFFFF",
+    "borderRadius": "",
+    "border": {
+      "color": "",
+      "width": ""
     }
-  ],
-     
+  },
+  "widgetProperties": {
+    "crossAxisAlignment": "start",
+    "mainAxisAlignment": "center",
+    "mainAxisSize": "",
+    "children": [
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "speakCard",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "275",
+          "width": "90%",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "imgUrl": "https://sringeri.net/wp-content/uploads/2009/07/sringeri-acharyal-1024x382.jpg",
+          "imgFitType": "fill",
+          "width": "100%",
+          "height": "210",
+          "borderRadius": "",
+          "card_name": "Jagadguru Vani",
+          "quote": "One Should Dwell on the roots of the intructions of the shastras and the guru as one strides forward in life"
+        }
       },
-    } 
-    
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "titleRowButton",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "10",
+          "border": {
+            "color": "",
+            "width": "1"
+          }
+        },
+        "widgetProperties": {
+          "title": "Resources",
+          "titleSize": "",
+          "titleColor": "",
+          "buttonText": "View All",
+          "buttonTextSize": "",
+          "hideViewAll": "",
+          "buttonTextColor": "#E55039"
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "gridView",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "perItemWidth": "150",
+          "horizontalSpacing": "5",
+          "verticalSpacing": "5",
+          "itemWidget": {
+            "type": "imageTextColumn",
+            "itemCount": "6",
+            "basicProperties": {
+              "padding": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "margin": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "height": "",
+              "width": "",
+              "backgroundColor": "",
+              "borderRadius": "",
+              "border": {
+                "color": "",
+                "width": ""
+              }
+            },
+            "itemProperties": {
+              "titleColor": "",
+              "titleSize": "",
+              "hideText": "",
+              "itemData": [
+                {
+                  "title": "Videos",
+                  "url": "https://user-images.githubusercontent.com/106060767/222734779-60d26072-b28a-4a79-8943-50dc0b9780c0.png"
+                },
+                {
+                  "title": "Songs",
+                  "url": "https://user-images.githubusercontent.com/106060767/222734715-843c6bef-da66-41a6-896d-8477340db6a1.png"
+                },
+                {
+                  "title": "Panchangam",
+                  "url": "https://user-images.githubusercontent.com/106060767/222734695-6976ecee-167a-4b75-9c3c-890faf71b4e0.png"
+                },
+                {
+                  "title": "Pravachans",
+                  "url": "https://user-images.githubusercontent.com/106060767/222734740-9e8cbb6a-e0ab-441a-984f-9a905a5f3351.png"
+                },
+                {
+                  "title": "Stotras",
+                  "url": "https://user-images.githubusercontent.com/106060767/222734695-6976ecee-167a-4b75-9c3c-890faf71b4e0.png"
+                },
+                {
+                  "title": "Live",
+                  "url": "https://user-images.githubusercontent.com/106060767/222734682-72dc14b4-73fa-4049-b2a4-07a185bdbf1e.png"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "titleRowButton",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "10",
+          "border": {
+            "color": "",
+            "width": "1"
+          }
+        },
+        "widgetProperties": {
+          "title": "My Upcoming Sevas",
+          "titleSize": "",
+          "titleColor": "",
+          "buttonText": "View All",
+          "buttonTextSize": "",
+          "hideViewAll": "",
+          "buttonTextColor": "#E55039"
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "customSlider",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": "10"
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "10",
+          "border": {
+            "color": "",
+            "width": "1"
+          }
+        },
+        "widgetProperties": {
+          "cardHeight": "110",
+          "cardWidth": "570",
+          "autoPlay": "true",
+          "itemWidget": {
+            "color": "#F9F9F9",
+            "activeColor": "#E55039",
+            "itemCount": "2",
+            "basicProperties": {
+              "padding": {
+                "left": "",
+                "right": "10",
+                "top": "",
+                "bottom": "10"
+              },
+              "margin": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "height": "",
+              "width": "",
+              "backgroundColor": "",
+              "borderRadius": "",
+              "border": {
+                "color": "",
+                "width": ""
+              }
+            },
+            "itemProperties": {
+              "color": "",
+              "titleColor": "",
+              "titleSize": "",
+              "subTitleSize": "",
+              "subTitleColor": "",
+              "height": "100",
+              "shadowColor": "",
+              "borderRadius": "10",
+              "itemData": [
+                {
+                  "title": "Silder card 1",
+                  "subTitle": "This is jsut for demostration",
+                  "imgUrl": "https://user-images.githubusercontent.com/106060767/222727277-10aba637-4f6e-4408-80c3-7e7e31db9d26.png"
+                },
+                {
+                  "title": "Silder card 2",
+                  "subTitle": "This is jsut for demostration",
+                  "imgUrl": "https://user-images.githubusercontent.com/106060767/223011755-5f3e4962-29a7-43ed-8097-8a709c7ef95b.png"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "titleRowButton",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "10",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "10",
+          "border": {
+            "color": "",
+            "width": "1"
+          }
+        },
+        "widgetProperties": {
+          "title": "This Month",
+          "titleSize": "",
+          "titleColor": "",
+          "buttonText": "View All",
+          "buttonTextSize": "",
+          "hideViewAll": "",
+          "buttonTextColor": "#E55039"
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "listView",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "10",
+            "bottom": "10"
+          },
+          "height": "150",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "itemSpacing": "10",
+          "scrollDirection": "vertical",
+          "itemWidget": {
+            "type": "listTileDateCard",
+            "basicProperties": {
+              "padding": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "margin": {
+                "left": "",
+                "right": "",
+                "top": "5",
+                "bottom": "5"
+              },
+              "height": "",
+              "width": "",
+              "backgroundColor": "",
+              "borderRadius": "",
+              "border": {
+                "color": "",
+                "width": ""
+              }
+            },
+            "itemCount": "6",
+            "itemProperties": {
+              "height": "80",
+              "width": "330",
+              "titleColor": "",
+              "titleSize": "",
+              "cardColor": "",
+              "leadingTextSize": "",
+              "leadingTextColor": "",
+              "leadingBoxColor": "",
+              "borderRadius": "8",
+              "leadingBoxBorderRadius": "4",
+              "itemData": [
+                {
+                  "title": "Silder card example1",
+                  "date": "22",
+                  "month": "Jan"
+                },
+                {
+                  "title": "Silder card example2",
+                  "date": "26",
+                  "month": "Jan"
+                },
+                {
+                  "title": "Silder card example3",
+                  "date": "27",
+                  "month": "Jan"
+                },
+                {
+                  "title": "Silder card example4",
+                  "date": "28",
+                  "month": "Jan"
+                },
+                {
+                  "title": "Silder card example5",
+                  "date": "29",
+                  "month": "Jan"
+                },
+                {
+                  "title": "Silder card example6",
+                  "date": "30",
+                  "month": "Jan"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "titleRowButton",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "10",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "10",
+          "border": {
+            "color": "",
+            "width": "1"
+          }
+        },
+        "widgetProperties": {
+          "title": "Jagadguru Speaks",
+          "titleSize": "",
+          "titleColor": "",
+          "buttonText": "View All",
+          "buttonTextSize": "",
+          "hideViewAll": "",
+          "buttonTextColor": "#E55039"
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "listView",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "10",
+            "bottom": "10"
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "100",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "itemSpacing": "2",
+          "scrollDirection": "horizontal",
+          "itemWidget": {
+            "type": "textCard",
+            "itemCount": "2",
+            "basicProperties": {
+              "padding": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "margin": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "height": "85",
+              "width": "180",
+              "backgroundColor": "",
+              "borderRadius": "",
+              "border": {
+                "color": "",
+                "width": ""
+              }
+            },
+            "itemProperties": {
+              "width": "160",
+              "height": "70",
+              "color": "",
+              "titleColor": "#101010",
+              "titleSize": "16",
+              "borderRadius": "8",
+              "itemData": [
+                {
+                  "title": "English"
+                },
+                {
+                  "title": "தமிழ்"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
