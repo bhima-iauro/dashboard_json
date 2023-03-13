@@ -1,0 +1,217 @@
+{
+  "_id": "63e20a959f83e075ee8cb6bb",
+  "page_id": "63e20a94f87f49390ae9f4c7",
+  "key": "name",
+  "value": "",
+  "widgetType": "column",
+  "basicProperties": {
+    "padding": {
+      "left": "15",
+      "right": "15",
+      "top": "15",
+      "bottom": "15"
+    },
+    "margin": {
+      "left": "",
+      "right": "",
+      "top": "",
+      "bottom": ""
+    },
+    "height": "",
+    "width": "",
+    "backgroundColor": "FFFFFF",
+    "borderRadius": "",
+    "border": {
+      "color": "",
+      "width": ""
+    }
+  },
+  "widgetProperties": {
+    "crossAxisAlignment": "start",
+    "mainAxisAlignment": "center",
+    "mainAxisSize": "",
+    "children": [
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "gridView",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "itemWidget": {
+            "type": "imageTextCard",
+            "itemCount": "4",
+            "itemProperties": {
+              "width": "160",
+              "height": "70",
+              "titleColor": "",
+              "titleSize": "",
+              "subTitleColor": "",
+              "subTitleSize": "",
+              "imageBoxColor": "",
+              "borderColor": "#FFA39E",
+              "borderRadius": "",
+              "borderWidth": "1",
+              "itemData": [
+                {
+                  "title": "1",
+                  "subTitle": "Overdue",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976803-443d2a1c-9f3b-46bb-a98f-54d9b67b0d8e.png"
+                },
+                {
+                  "title": "4",
+                  "subTitle": "Today's Task",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976622-44d7d60f-0df6-437c-8088-f90950b8292f.png"
+                },
+                {
+                  "title": "5",
+                  "subTitle": "Upcoming",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976723-e64b94f3-1994-4e94-a3e9-6578c8b90a9c.png"
+                },
+                {
+                  "title": "1",
+                  "subTitle": "Completed",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976752-13bd238a-b69f-468d-9821-3fcaeabdad6d.png"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "listView",
+        "basicProperties": {
+          "padding": {
+            "left": "15",
+            "right": "15",
+            "top": "15",
+            "bottom": "15"
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "100",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "#ac1291",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "itemSpacing": "10",
+          "scrollDirection": "horizontal",
+          "itemWidget": {
+            "type": "imageTextCard",
+            "itemCount": "4",
+            "itemProperties": {
+              "width": "160",
+              "height": "70",
+              "titleColor": "",
+              "titleSize": "",
+              "subTitleColor": "",
+              "subTitleSize": "",
+              "imageBoxColor": "",
+              "borderColor": "#FFA39E",
+              "borderRadius": "",
+              "borderWidth": "1",
+              "itemData": [
+                {
+                  "title": "All",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976803-443d2a1c-9f3b-46bb-a98f-54d9b67b0d8e.png"
+                },
+                {
+                  "title": "Overdue",
+                  "subTitle": "Today's Task",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976622-44d7d60f-0df6-437c-8088-f90950b8292f.png"
+                },
+                {
+                  "title": "To Do",
+                  "subTitle": "Upcoming",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976723-e64b94f3-1994-4e94-a3e9-6578c8b90a9c.png"
+                },
+                {
+                  "title": "Done",
+                  "subTitle": "Completed",
+                  "url": "https://user-images.githubusercontent.com/106060767/222976752-13bd238a-b69f-468d-9821-3fcaeabdad6d.png"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "customChipCard",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "10",
+          "border": {
+            "color": "",
+            "width": "1"
+          }
+        },
+        "widgetProperties": {
+          "height": "40",
+          "width": "150",
+          "title": "Resources",
+          "titleSize": "",
+          "titleColor": "",
+          "imgUrl": "https://user-images.githubusercontent.com/106060767/222976739-4e0bc8fe-b4f5-4297-86a2-538e5f0bb131.png",
+          "borderColor": "#E5E5E5",
+          "borderRadius": "",
+          "borderWidth": "",
+          "cardColor": "",
+          "imgColor": ""
+        }
+      }
+    ]
+  }
+}
