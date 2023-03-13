@@ -136,12 +136,13 @@
           }
         },
         "widgetProperties": {
-          "perItemWidth": "150",
+          "crossAxisCount": "3",
           "horizontalSpacing": "5",
           "verticalSpacing": "5",
           "itemWidget": {
             "type": "imageTextColumn",
             "itemCount": "6",
+            "childAspectRatio":"1.5"
             "basicProperties": {
               "padding": {
                 "left": "",
