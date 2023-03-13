@@ -31,7 +31,6 @@
       "mainAxisAlignment":"center",
       "mainAxisSize":"",
       "children":[
-        
          {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
@@ -165,7 +164,7 @@
                "buttonTextColor":"#131CA2"
             }
          },
-          {
+         {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
             "key":"name",
@@ -222,51 +221,48 @@
                   },
                   "itemCount":"1",
                   "itemProperties":{
-                     "itemData" : [
-                      {
-                       "title": "Receive Payment Milestone 1",
-        "subTitle1": "SSEDL0002",
-        "subTitle2": "Mr. Mahendra Singh",
-        "description1": "27 March; 10:00:00",
-        "description2": "10 km - 40 mins away",
-        "address": "Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
-        "tag1Text": "To Do",
-        "tag2Text": "P1",
-                     }
+                     "itemData":[
+                        {
+                           "title":"Receive Payment Milestone 1",
+                           "subTitle1":"SSEDL0002",
+                           "subTitle2":"Mr. Mahendra Singh",
+                           "description1":"27 March; 10:00:00",
+                           "description2":"10 km - 40 mins away",
+                           "address":"Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
+                           "tag1Text":"To Do",
+                           "tag2Text":"P1"
+                        }
                      ],
-        "cardHeight": "",
-        "cardWidth": "",
-       
-        "titleSize": "14",
-        "titleColor": "#101425",
-        "subTitleColor": "#101425",
-        "subTitleSize": "12",
-        "descriptionColor": "#636A75",
-        "descriptionSize": "12",
-        "addressColor": "#848B96",
-        "addressSize": "12",
-        "addressIcon": "",
-        "description1Icon": "",
-        "description2Icon": "",
-        
-        "tag1Color": "#D6E4FF",
-        "tag2Color": "#FFCCC7",
-        "tag1TextColor": "#1D39C4",
-        "tag2TextColor": "#CE1322",
-        "tagTextSize": "12",
-        "buttonIcon1": "",
-        "buttonIcon2": "",
-        "buttonIconColor": "#131CA2",
-        "buttonIconSize": "18",
-        "cardBorderRadius": "5",
-        "cardBorderColor": "#E2E7EF",
-        "cardBorderWidth": "1",
-    
-    
-                     }
+                     "cardHeight":"",
+                     "cardWidth":"",
+                     "titleSize":"14",
+                     "titleColor":"#101425",
+                     "subTitleColor":"#101425",
+                     "subTitleSize":"12",
+                     "descriptionColor":"#636A75",
+                     "descriptionSize":"12",
+                     "addressColor":"#848B96",
+                     "addressSize":"12",
+                     "addressIcon":"",
+                     "description1Icon":"",
+                     "description2Icon":"",
+                     "tag1Color":"#D6E4FF",
+                     "tag2Color":"#FFCCC7",
+                     "tag1TextColor":"#1D39C4",
+                     "tag2TextColor":"#CE1322",
+                     "tagTextSize":"12",
+                     "buttonIcon1":"",
+                     "buttonIcon2":"",
+                     "buttonIconColor":"#131CA2",
+                     "buttonIconSize":"18",
+                     "cardBorderRadius":"5",
+                     "cardBorderColor":"#E2E7EF",
+                     "cardBorderWidth":"1"
+                  }
                }
             }
-         },{
+         },
+         {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
             "key":"name",
@@ -304,7 +300,7 @@
                "buttonTextColor":"#131CA2"
             }
          },
-          {
+         {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
             "key":"name",
@@ -361,63 +357,57 @@
                   },
                   "itemCount":"2",
                   "itemProperties":{
-                     "itemData" : [
-                      {
-                       "title": "Receive Payment Milestone 1",
-        "subTitle1": "SSEDL0002",
-        "subTitle2": "Mr. Mahendra Singh",
-        "description1": "27 March; 10:00:00",
-        "description2": "10 km - 40 mins away",
-        "address": "Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
-        "tag1Text": "To Do",
-        "tag2Text": "P1",
-                     },
-                     {
-                       "title": "Receive Payment Milestone 1",
-        "subTitle1": "SSEDL0002",
-        "subTitle2": "Mr. Mahendra Singh",
-        "description1": "27 March; 10:00:00",
-        "description2": "10 km - 40 mins away",
-        "address": "Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
-        "tag1Text": "To Do",
-        "tag2Text": "P1",
-                     }
+                     "itemData":[
+                        {
+                           "title":"Receive Payment Milestone 1",
+                           "subTitle1":"SSEDL0002",
+                           "subTitle2":"Mr. Mahendra Singh",
+                           "description1":"27 March; 10:00:00",
+                           "description2":"10 km - 40 mins away",
+                           "address":"Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
+                           "tag1Text":"To Do",
+                           "tag2Text":"P1"
+                        },
+                        {
+                           "title":"Receive Payment Milestone 1",
+                           "subTitle1":"SSEDL0002",
+                           "subTitle2":"Mr. Mahendra Singh",
+                           "description1":"27 March; 10:00:00",
+                           "description2":"10 km - 40 mins away",
+                           "address":"Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
+                           "tag1Text":"To Do",
+                           "tag2Text":"P1"
+                        }
                      ],
-        "cardHeight": "",
-        "cardWidth": "",
-       
-        "titleSize": "14",
-        "titleColor": "#101425",
-        "subTitleColor": "#101425",
-        "subTitleSize": "12",
-        "descriptionColor": "#636A75",
-        "descriptionSize": "12",
-        "addressColor": "#848B96",
-        "addressSize": "12",
-        "addressIcon": "",
-        "description1Icon": "",
-        "description2Icon": "",
-        
-        "tag1Color": "#D6E4FF",
-        "tag2Color": "#FFCCC7",
-        "tag1TextColor": "#1D39C4",
-        "tag2TextColor": "#CE1322",
-        "tagTextSize": "12",
-        "buttonIcon1": "",
-        "buttonIcon2": "",
-        "buttonIconColor": "#131CA2",
-        "buttonIconSize": "18",
-        "cardBorderRadius": "5",
-        "cardBorderColor": "#E2E7EF",
-        "cardBorderWidth": "1",
-    
-    
-                     }
+                     "cardHeight":"",
+                     "cardWidth":"",
+                     "titleSize":"14",
+                     "titleColor":"#101425",
+                     "subTitleColor":"#101425",
+                     "subTitleSize":"12",
+                     "descriptionColor":"#636A75",
+                     "descriptionSize":"12",
+                     "addressColor":"#848B96",
+                     "addressSize":"12",
+                     "addressIcon":"",
+                     "description1Icon":"",
+                     "description2Icon":"",
+                     "tag1Color":"#D6E4FF",
+                     "tag2Color":"#FFCCC7",
+                     "tag1TextColor":"#1D39C4",
+                     "tag2TextColor":"#CE1322",
+                     "tagTextSize":"12",
+                     "buttonIcon1":"",
+                     "buttonIcon2":"",
+                     "buttonIconColor":"#131CA2",
+                     "buttonIconSize":"18",
+                     "cardBorderRadius":"5",
+                     "cardBorderColor":"#E2E7EF",
+                     "cardBorderWidth":"1"
+                  }
                }
             }
          }
-          
-          
-          ]
+      ]
    }
 }
