@@ -1,40 +1,47 @@
 {
-    "_id": "63e20a959f83e075ee8cb6bb",
-    "page_id": "63e20a94f87f49390ae9f4c7",
-    "key": "name",
-    "value": "",
-    "widgetType": "bottomMenu",
-    "basicProperties": {
-      "padding": {
-        "left": "",
-        "right": "",
-        "top": "",
-        "bottom": "",
+   "_id":"63e20a959f83e075ee8cb6bb",
+   "page_id":"63e20a94f87f49390ae9f4c7",
+   "key":"name",
+   "value":"",
+   "widgetType":"bottomMenu",
+   "basicProperties":{
+      "padding":{
+         "left":"",
+         "right":"",
+         "top":"",
+         "bottom":""
       },
-      "margin": {
-        "left": "",
-        "right": "",
-        "top": "",
-        "bottom": "",
+      "margin":{
+         "left":"",
+         "right":"",
+         "top":"",
+         "bottom":""
       },
-      "height": "",
-      "width": "",
-      "backgroundColor": "F9F9F9", 
-      "borderRadius": "10",
-      "border": {
-        "color": "", 
-        "width": "",
+      "height":"",
+      "width":"",
+      "backgroundColor":"F9F9F9",
+      "borderRadius":"10",
+      "border":{
+         "color":"",
+         "width":""
       }
-    },
-    "widgetProperties": {
-      "label": ['Sringeri', 'Grocery', 'Test'],
-      "icon": ['dashboard', 'home', 'abc'],
-      "titleSize": "22",
-      "titleColor": "",
-      "iconSize": "",
-      "selectedItemColor": "#E55039",
-      "itemColor":  "#000000",
-      "backgroundColor": "",
-
-    },
-  }
+   },
+   "widgetProperties":{
+      "label":[
+         "Sringeri",
+         "Grocery",
+         "Test"
+      ],
+      "icon":[
+         "dashboard",
+         "home",
+         "abc"
+      ],
+      "titleSize":"22",
+      "titleColor":"",
+      "iconSize":"",
+      "selectedItemColor":"#E55039",
+      "itemColor":"#000000",
+      "backgroundColor":""
+   }
+}
