@@ -8,8 +8,8 @@
       "padding":{
          "left":"15",
          "right":"15",
-         "top":"15",
-         "bottom":"15"
+         "top":"",
+         "bottom":""
       },
       "margin":{
          "left":"",
@@ -31,82 +31,7 @@
       "mainAxisAlignment":"center",
       "mainAxisSize":"",
       "children":[
-         {
-            "_id":"63e20a959f83e075ee8cb6bb",
-            "page_id":"63e20a94f87f49390ae9f4c7",
-            "key":"name",
-            "value":"",
-            "widgetType":"speakCard",
-            "basicProperties":{
-               "padding":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":""
-               },
-               "margin":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":""
-               },
-               "height":"275",
-               "width":"90%",
-               "backgroundColor":"",
-               "borderRadius":"",
-               "border":{
-                  "color":"",
-                  "width":""
-               }
-            },
-            "widgetProperties":{
-               "imgUrl":"https://sringeri.net/wp-content/uploads/2009/07/sringeri-acharyal-1024x382.jpg",
-               "imgFitType":"fill",
-               "width":"100%",
-               "height":"210",
-               "borderRadius":"",
-               "card_name":"Jagadguru Vani",
-               "quote":"One Should Dwell on the roots of the intructions of the shastras and the guru as one strides forward in life"
-            }
-         },
-         {
-            "_id":"63e20a959f83e075ee8cb6bb",
-            "page_id":"63e20a94f87f49390ae9f4c7",
-            "key":"name",
-            "value":"",
-            "widgetType":"titleRowButton",
-            "basicProperties":{
-               "padding":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":""
-               },
-               "margin":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":""
-               },
-               "height":"",
-               "width":"",
-               "backgroundColor":"",
-               "borderRadius":"10",
-               "border":{
-                  "color":"",
-                  "width":"1"
-               }
-            },
-            "widgetProperties":{
-               "title":"Resources",
-               "titleSize":"",
-               "titleColor":"",
-               "buttonText":"View All",
-               "buttonTextSize":"",
-               "hideViewAll":"",
-               "buttonTextColor":"#E55039"
-            }
-         },
+        
          {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
@@ -126,7 +51,7 @@
                   "top":"",
                   "bottom":""
                },
-               "height":"",
+               "height":"200",
                "width":"",
                "backgroundColor":"",
                "borderRadius":"",
@@ -136,12 +61,13 @@
                }
             },
             "widgetProperties":{
-               "perItemWidth":"150",
-               "horizontalSpacing":"5",
-               "verticalSpacing":"5",
+               "crossAxisCount":"2",
+               "horizontalSpacing":"8",
+               "verticalSpacing":"8",
                "itemWidget":{
                   "type":"imageTextCard",
                   "itemCount":"4",
+                  "childAspectRatio":"2",
                   "basicProperties":{
                      "padding":{
                         "left":"",
@@ -155,7 +81,7 @@
                         "top":"",
                         "bottom":""
                      },
-                     "height":"",
+                     "height":"200",
                      "width":"",
                      "backgroundColor":"",
                      "borderRadius":"",
@@ -172,7 +98,7 @@
                      "subTitleColor":"",
                      "subTitleSize":"",
                      "imageBoxColor":"",
-                     "borderColor":"#FFA39E",
+                     "borderColor":"#E1E1E1",
                      "borderRadius":"",
                      "borderWidth":"1",
                      "itemData":[
@@ -230,137 +156,16 @@
                }
             },
             "widgetProperties":{
-               "title":"My Upcoming Sevas",
+               "title":"Overdue (1)",
                "titleSize":"",
                "titleColor":"",
                "buttonText":"View All",
                "buttonTextSize":"",
                "hideViewAll":"",
-               "buttonTextColor":"#E55039"
+               "buttonTextColor":"#131CA2"
             }
          },
-         {
-            "_id":"63e20a959f83e075ee8cb6bb",
-            "page_id":"63e20a94f87f49390ae9f4c7",
-            "key":"name",
-            "value":"",
-            "widgetType":"customSlider",
-            "basicProperties":{
-               "padding":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":""
-               },
-               "margin":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":"10"
-               },
-               "height":"",
-               "width":"",
-               "backgroundColor":"",
-               "borderRadius":"10",
-               "border":{
-                  "color":"",
-                  "width":"1"
-               }
-            },
-            "widgetProperties":{
-               "cardHeight":"110",
-               "cardWidth":"570",
-               "autoPlay":"true",
-               "itemWidget":{
-                  "color":"#F9F9F9",
-                  "activeColor":"#E55039",
-                  "itemCount":"2",
-                  "basicProperties":{
-                     "padding":{
-                        "left":"",
-                        "right":"10",
-                        "top":"",
-                        "bottom":"10"
-                     },
-                     "margin":{
-                        "left":"",
-                        "right":"",
-                        "top":"",
-                        "bottom":""
-                     },
-                     "height":"",
-                     "width":"",
-                     "backgroundColor":"",
-                     "borderRadius":"",
-                     "border":{
-                        "color":"",
-                        "width":""
-                     }
-                  },
-                  "itemProperties":{
-                     "color":"",
-                     "titleColor":"",
-                     "titleSize":"",
-                     "subTitleSize":"",
-                     "subTitleColor":"",
-                     "height":"100",
-                     "shadowColor":"",
-                     "borderRadius":"10",
-                     "itemData":[
-                        {
-                           "title":"Silder card 1",
-                           "subTitle":"This is jsut for demostration",
-                           "imgUrl":"https://user-images.githubusercontent.com/106060767/222727277-10aba637-4f6e-4408-80c3-7e7e31db9d26.png"
-                        },
-                        {
-                           "title":"Silder card 2",
-                           "subTitle":"This is jsut for demostration",
-                           "imgUrl":"https://user-images.githubusercontent.com/106060767/223011755-5f3e4962-29a7-43ed-8097-8a709c7ef95b.png"
-                        }
-                     ]
-                  }
-               }
-            }
-         },
-         {
-            "_id":"63e20a959f83e075ee8cb6bb",
-            "page_id":"63e20a94f87f49390ae9f4c7",
-            "key":"name",
-            "value":"",
-            "widgetType":"titleRowButton",
-            "basicProperties":{
-               "padding":{
-                  "left":"",
-                  "right":"",
-                  "top":"",
-                  "bottom":""
-               },
-               "margin":{
-                  "left":"",
-                  "right":"",
-                  "top":"10",
-                  "bottom":""
-               },
-               "height":"",
-               "width":"",
-               "backgroundColor":"",
-               "borderRadius":"10",
-               "border":{
-                  "color":"",
-                  "width":"1"
-               }
-            },
-            "widgetProperties":{
-               "title":"This Month",
-               "titleSize":"",
-               "titleColor":"",
-               "buttonText":"View All",
-               "buttonTextSize":"",
-               "hideViewAll":"",
-               "buttonTextColor":"#E55039"
-            }
-         },
-         {
+          {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
             "key":"name",
@@ -376,11 +181,11 @@
                "margin":{
                   "left":"",
                   "right":"",
-                  "top":"10",
-                  "bottom":"10"
+                  "top":"",
+                  "bottom":""
                },
-               "height":"150",
-               "width":"",
+               "height":"200",
+               "width":"100%",
                "backgroundColor":"",
                "borderRadius":"",
                "border":{
@@ -392,7 +197,7 @@
                "itemSpacing":"10",
                "scrollDirection":"vertical",
                "itemWidget":{
-                  "type":"listTileDateCard",
+                  "type":"detailsCard",
                   "basicProperties":{
                      "padding":{
                         "left":"",
@@ -406,8 +211,8 @@
                         "top":"5",
                         "bottom":"5"
                      },
-                     "height":"",
-                     "width":"",
+                     "height":"180",
+                     "width":"100%",
                      "backgroundColor":"",
                      "borderRadius":"",
                      "border":{
@@ -415,55 +220,53 @@
                         "width":""
                      }
                   },
-                  "itemCount":"6",
+                  "itemCount":"1",
                   "itemProperties":{
-                     "height":"80",
-                     "width":"330",
-                     "titleColor":"",
-                     "titleSize":"",
-                     "cardColor":"",
-                     "leadingTextSize":"",
-                     "leadingTextColor":"",
-                     "leadingBoxColor":"",
-                     "borderRadius":"8",
-                     "leadingBoxBorderRadius":"4",
-                     "itemData":[
-                        {
-                           "title":"Silder card example1",
-                           "date":"22",
-                           "month":"Jan"
-                        },
-                        {
-                           "title":"Silder card example2",
-                           "date":"26",
-                           "month":"Jan"
-                        },
-                        {
-                           "title":"Silder card example3",
-                           "date":"27",
-                           "month":"Jan"
-                        },
-                        {
-                           "title":"Silder card example4",
-                           "date":"28",
-                           "month":"Jan"
-                        },
-                        {
-                           "title":"Silder card example5",
-                           "date":"29",
-                           "month":"Jan"
-                        },
-                        {
-                           "title":"Silder card example6",
-                           "date":"30",
-                           "month":"Jan"
-                        }
-                     ]
-                  }
+                     "itemData" : [
+                      {
+                       "title": "Receive Payment Milestone 1",
+        "subTitle1": "SSEDL0002",
+        "subTitle2": "Mr. Mahendra Singh",
+        "description1": "27 March; 10:00:00",
+        "description2": "10 km - 40 mins away",
+        "address": "Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
+        "tag1Text": "To Do",
+        "tag2Text": "P1",
+                     }
+                     ],
+        "cardHeight": "",
+        "cardWidth": "",
+       
+        "titleSize": "14",
+        "titleColor": "#101425",
+        "subTitleColor": "#101425",
+        "subTitleSize": "12",
+        "descriptionColor": "#636A75",
+        "descriptionSize": "12",
+        "addressColor": "#848B96",
+        "addressSize": "12",
+        "addressIcon": "",
+        "description1Icon": "",
+        "description2Icon": "",
+        
+        "tag1Color": "#D6E4FF",
+        "tag2Color": "#FFCCC7",
+        "tag1TextColor": "#1D39C4",
+        "tag2TextColor": "#CE1322",
+        "tagTextSize": "12",
+        "buttonIcon1": "",
+        "buttonIcon2": "",
+        "buttonIconColor": "#131CA2",
+        "buttonIconSize": "18",
+        "cardBorderRadius": "5",
+        "cardBorderColor": "#E2E7EF",
+        "cardBorderWidth": "1",
+    
+    
+                     }
                }
             }
-         },
-         {
+         },{
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
             "key":"name",
@@ -473,7 +276,7 @@
                "padding":{
                   "left":"",
                   "right":"",
-                  "top":"10",
+                  "top":"",
                   "bottom":""
                },
                "margin":{
@@ -492,16 +295,16 @@
                }
             },
             "widgetProperties":{
-               "title":"Jagadguru Speaks",
+               "title":"Today (2)",
                "titleSize":"",
                "titleColor":"",
                "buttonText":"View All",
                "buttonTextSize":"",
                "hideViewAll":"",
-               "buttonTextColor":"#E55039"
+               "buttonTextColor":"#131CA2"
             }
          },
-         {
+          {
             "_id":"63e20a959f83e075ee8cb6bb",
             "page_id":"63e20a94f87f49390ae9f4c7",
             "key":"name",
@@ -511,8 +314,8 @@
                "padding":{
                   "left":"",
                   "right":"",
-                  "top":"10",
-                  "bottom":"10"
+                  "top":"",
+                  "bottom":""
                },
                "margin":{
                   "left":"",
@@ -520,8 +323,8 @@
                   "top":"",
                   "bottom":""
                },
-               "height":"100",
-               "width":"",
+               "height":"400",
+               "width":"100%",
                "backgroundColor":"",
                "borderRadius":"",
                "border":{
@@ -530,11 +333,10 @@
                }
             },
             "widgetProperties":{
-               "itemSpacing":"2",
-               "scrollDirection":"horizontal",
+               "itemSpacing":"10",
+               "scrollDirection":"vertical",
                "itemWidget":{
-                  "type":"textCard",
-                  "itemCount":"2",
+                  "type":"detailsCard",
                   "basicProperties":{
                      "padding":{
                         "left":"",
@@ -545,11 +347,11 @@
                      "margin":{
                         "left":"",
                         "right":"",
-                        "top":"",
-                        "bottom":""
+                        "top":"5",
+                        "bottom":"5"
                      },
-                     "height":"85",
-                     "width":"180",
+                     "height":"180",
+                     "width":"100%",
                      "backgroundColor":"",
                      "borderRadius":"",
                      "border":{
@@ -557,25 +359,65 @@
                         "width":""
                      }
                   },
+                  "itemCount":"2",
                   "itemProperties":{
-                     "width":"160",
-                     "height":"70",
-                     "color":"",
-                     "titleColor":"#101010",
-                     "titleSize":"16",
-                     "borderRadius":"8",
-                     "itemData":[
-                        {
-                           "title":"English"
-                        },
-                        {
-                           "title":"தமிழ்"
-                        }
-                     ]
-                  }
+                     "itemData" : [
+                      {
+                       "title": "Receive Payment Milestone 1",
+        "subTitle1": "SSEDL0002",
+        "subTitle2": "Mr. Mahendra Singh",
+        "description1": "27 March; 10:00:00",
+        "description2": "10 km - 40 mins away",
+        "address": "Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
+        "tag1Text": "To Do",
+        "tag2Text": "P1",
+                     },
+                     {
+                       "title": "Receive Payment Milestone 1",
+        "subTitle1": "SSEDL0002",
+        "subTitle2": "Mr. Mahendra Singh",
+        "description1": "27 March; 10:00:00",
+        "description2": "10 km - 40 mins away",
+        "address": "Plot 41, Lane no. 21, Shivaji Nagar Road,34456456...",
+        "tag1Text": "To Do",
+        "tag2Text": "P1",
+                     }
+                     ],
+        "cardHeight": "",
+        "cardWidth": "",
+       
+        "titleSize": "14",
+        "titleColor": "#101425",
+        "subTitleColor": "#101425",
+        "subTitleSize": "12",
+        "descriptionColor": "#636A75",
+        "descriptionSize": "12",
+        "addressColor": "#848B96",
+        "addressSize": "12",
+        "addressIcon": "",
+        "description1Icon": "",
+        "description2Icon": "",
+        
+        "tag1Color": "#D6E4FF",
+        "tag2Color": "#FFCCC7",
+        "tag1TextColor": "#1D39C4",
+        "tag2TextColor": "#CE1322",
+        "tagTextSize": "12",
+        "buttonIcon1": "",
+        "buttonIcon2": "",
+        "buttonIconColor": "#131CA2",
+        "buttonIconSize": "18",
+        "cardBorderRadius": "5",
+        "cardBorderColor": "#E2E7EF",
+        "cardBorderWidth": "1",
+    
+    
+                     }
                }
             }
          }
-      ]
+          
+          
+          ]
    }
 }
