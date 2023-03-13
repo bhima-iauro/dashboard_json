@@ -27,7 +27,7 @@
       }
     },
     "widgetProperties": {
-      "label": ['Dashboard', 'Home', 'Abc'],
+      "label": ['Sringeri', 'Grocery', 'Test'],
       "icon": ['dashboard', 'home', 'abc'],
       "titleSize": "22",
       "titleColor": "",
