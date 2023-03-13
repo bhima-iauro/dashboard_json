@@ -19,10 +19,10 @@
       },
       "height": "",
       "width": "",
-      "backgroundColor": "F9F9F9", //#65b5a0
+      "backgroundColor": "F9F9F9", 
       "borderRadius": "10",
       "border": {
-        "color": "", //#ac1291
+        "color": "", 
         "width": "",
       }
     },
