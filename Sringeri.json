@@ -573,7 +573,105 @@
             }
           }
         }
+      },
+        
+
+
+  {
+        "_id": "63e20a959f83e075ee8cb6bb",
+        "page_id": "63e20a94f87f49390ae9f4c7",
+        "key": "name",
+        "value": "",
+        "widgetType": "listView",
+        "basicProperties": {
+          "padding": {
+            "left": "",
+            "right": "",
+            "top": "10",
+            "bottom": "10"
+          },
+          "margin": {
+            "left": "",
+            "right": "",
+            "top": "",
+            "bottom": ""
+          },
+          "height": "100",
+          "width": "",
+          "backgroundColor": "",
+          "borderRadius": "",
+          "border": {
+            "color": "",
+            "width": ""
+          }
+        },
+        "widgetProperties": {
+          "itemSpacing": "2",
+          "scrollDirection": "vertical",
+          "itemWidget": {
+            "type": "backgroundImageCard",
+            "itemCount": "2",
+            "basicProperties": {
+              "padding": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "margin": {
+                "left": "",
+                "right": "",
+                "top": "",
+                "bottom": ""
+              },
+              "height": "85",
+              "width": "180",
+              "backgroundColor": "",
+              "borderRadius": "",
+              "border": {
+                "color": "",
+                "width": ""
+              }
+            },
+            "itemProperties": {
+              "width": "160",
+              "height": "70",
+              "color": "",
+              "titleColor": "#101010",
+              "titleSize": "16",
+              "borderRadius": "8",
+              "itemData": [
+                {
+"imgHeight": "",
+        "imgWidth": "",
+        "title": "Resources",
+        "subTitle": "Resources",
+        "titleSize": "",
+        "titleColor": "",
+        "subTitleSize": "",
+        "subTitleColor": "",
+        "imgUrl": "https://picsum.photos/seed/picsum/200/300",
+        "radius": "10", 
+                },
+                {
+"imgHeight": "200",
+        "imgWidth": "",
+        "title": "Test",
+        "subTitle": "Resources",
+        "titleSize": "",
+        "titleColor": "",
+        "subTitleSize": "",
+        "subTitleColor": "",
+        "imgUrl": "https://picsum.photos/seed/picsum/400/300",
+        "radius": "10", 
+                }
+              ]
+            }
+          }
+        }
       }
+   
+
     ]
   }
 }
